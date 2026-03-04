@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turismo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="topo">
+    <h1>Turismo</h1>
+    <nav>
+      <a href="#destinos">Destinos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Descubra lugares legais</h2>
+  <p>Uma página bem para treinar HTML e CSS.</p>
+  <a class="btn" href="#destinos">Ver destinos</a>
+</section>
+
+<main>
+<section id="destinos" class="secao">
+  <h2>Destinos</h2>
+  <div class="lista-destinos">
+    <article class="destino">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200&auto=format&fit=crop" alt="Praia clara">
+      <h3>Praia Azul</h3>
+      <p>Areia fina, água calma e sol. Perfeito para relaxar.</p>
+      <a class="btn pequeno" href="#">Quero conhecer</a>
+    </article>
+    <article class="destino">
+      <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop" alt="Montanha verde">
+      <h3>Serra Verde</h3>
+      <p>Trilhas fáceis e vista bonita para fotos.</p>
+      <a class="btn pequeno" href="#">Quero conhecer</a>
+    </article>
+    <article class="destino">
+      <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?q=80&w=1200&auto=format&fit=crop" alt="Cidade histórica">
+      <h3>Centro Antigo</h3>
+      <p>Casas antigas, ruas estreitas e comida caseira.</p>
+      <a class="btn pequeno" href="#">Quero conhecer</a>
+    </article>
+  </div>
+</section>
+
+<section id="sobre" class="secao">
+  <h2>Sobre</h2>
+  <p>Fiz esse site, só com HTML e CSS, pra treinar o básão: títulos, parágrafos, fotos e os botões.</p>
+</section>
+
+<section id="contato" class="secao">
+  <h2>Contato</h2>
+  <form action="#" method="post" class="form-contato">
+    <label for="nome">Nome</label>
+    <input id="nome" name="nome" type="text" placeholder="Seu nome">
+
+    <label for="email">E-mail</label>
+    <input id="email" name="email" type="email" placeholder="voce@email">
+
+    <label for="mensagem">Mensagem</label>
+    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui"></textarea>
+
+    <button type="submit" class="btn">Enviar</button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>2026 Turismo</p>
+</footer>
+</body>
+</html>
